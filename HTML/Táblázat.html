@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Táblázat</title>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align:center;
+        }
+        td, th {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- tálázat table Ennek a sora tr table row. és a td a sorban lévő dolgook (table data) 
+    caption az a table felirata. Rowspan sor egysítése. Ide be kell írni egy számot hogy
+mennyi sort egyeítes. De a másik datoknak (Itt pl a 9.c-nek kommentbe kell lennie) -->
+    <table>
+        <caption>Ország, város játék táblázata</caption>
+     <tr>
+        <th>Ország</th>
+        <th>Város</th>
+        <th>Fiú</th>
+        <th>Lány</th>
+     </tr>   
+     <td>Algéria</td>
+     <td>Albertirsa</td>
+     <td>Albert</td>
+     <td>Anna</td>
+     <tr>
+     <td>Bangladesh</td>
+     <td>Babarcszőlős</td>
+     <td>Balázs</td>
+     <td>Berndadett</td>
+    </tr>
+     <td>Ciprus</td>
+     <td>Cegléd</td>
+     <td>Cézár</td>
+     <td>Cecil</td>
+     <tr>
+     <td>Dánia</td>
+     <td>Domony</td>
+     <td>Dante</td>
+     <td>Dorina</td>
+    </tr>
+    </table>
+    <hr>
+
+    <table>
+       <table>
+        <tr>
+            <th>Osztály</th>
+            <th>Név</th>
+            <tr>
+                <td rowspan="4">9.c</td>
+                <td>Csányi Alex</td>
+            </tr>
+            <tr>
+                <!-- <td>9.c</td> -->
+                <td>Szabó István</td>
+            </tr>
+            <tr>
+                <!-- <td>9.c</td> -->
+                <td>Dobrovenszki Balázs</td>
+            </tr>
+            <tr>
+                <!-- <td>9.c</td> -->
+            <td>Kesztyűs Kristóf</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9.b</td>
+            <td>Németh Gábor</td>
+            <tr>
+                <!-- <td>9.b</td> -->
+                <Td>Szabó Máriusz</Td>
+            </tr>
+        </tr>
+
+       </tr>
+       </table> 
+    </table>
+        
+</body>
+</html>
