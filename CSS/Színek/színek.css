@@ -1,0 +1,11 @@
+   p {
+    color: blue;
+   }
+   span{
+        color: green;    
+   }
+   /* body p span. specifikus */
+
+   #modern {
+            color: yellow;
+   }
