@@ -9,3 +9,12 @@
    #modern {
             color: yellow;
    }
+
+   .golyo {
+            color: black;
+   }
+
+   /* body span az a klasszikust is lilává tenné  */
+               body>span {
+                           color: purple;
+               }
