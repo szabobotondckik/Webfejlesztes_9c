@@ -30,3 +30,73 @@ body {
     background-color: yellow;
     height: 20vh;
 }
+
+#szegely {
+    /* border-style: solid;
+    border-width: 2.5px;
+    border-color: red; */
+    width: 40%;
+    height: 40px;
+    border: 2.5px solid red;
+    background-color: orange;
+    /* Top right bottom left irányok */
+
+
+    
+}
+
+#vegyes {
+    background-color: aqua;
+    border-right: 2px dashed black;
+    border-bottom: 5px dotted yellow;
+    margin-bottom: 40px;
+    /* a 40 px dominál mivel az a nagyoobb. A margók nem adódnak össze. */
+}
+/* ~ a felső doboz  azonostíó elem korábbi testvérei. Így mindakettőre beállítottuk */
+#felso_doboz ~ div {
+     width: 40%;
+     height: 40px;
+}
+#kulso_margo {
+     background-color: blue;
+     margin-top: 20px;
+     margin-left: 40px;
+}
+
+#felso_doboz ~ #kulso {
+    background-color: saddlebrown;
+    /* margin: 50px; */
+    height:auto;
+}
+/* margin magában mindenhol eltolja annyival */
+#belso {
+    background-color: hotpink;
+    margin: 10px;
+}
+
+/* margin az a margó. Azaz kihagyás */
+
+#belso_margo {
+    background-color: red;
+    padding: 10px;
+}
+/* Padding az a belső margó.Dobozon belül. A Margin és a Padding kb ugyanúgy működik. */
+
+#belso_vegyes {
+    background-color: royalblue;
+    height:auto !important;
+    padding: 20px 40px 60px;
+}
+
+/* padding és marginnál fontos a sorrend top right bottom left. Ha csak kettő adat van (vagy bármennyi) akkor az ismétlődik. */
+
+#kozepre {
+    background-color: yellow;
+    /* margin-left: 30%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+/* Így igazítjuk középre mert 40% a doboz. 30% a jobboldal. Ezért kell 30 %. De ezt vacakolós kiszámolni.     margin-left: auto;
+    margin-right: auto; a könnyebb megoldás. margin auto lesz a könnyebb */
