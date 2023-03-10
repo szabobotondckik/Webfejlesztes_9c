@@ -16,10 +16,18 @@ div {
     border: 1px solid black;
 }
 
-.tobbszoros {
+.tobbsoros {
     display: block;
 }
 
 .egysoros {
     display: inline;
+}
+
+#vegyes {
+    display: inline-block;
+}
+
+.nincsitt {
+    display: none;
 }
