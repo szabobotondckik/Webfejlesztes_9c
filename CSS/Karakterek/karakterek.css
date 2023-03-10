@@ -29,3 +29,12 @@ p {
 html {
     font-size: 2px;
 }
+
+#USA {
+    font-variant: small-caps;
+}
+
+#IFAB {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
