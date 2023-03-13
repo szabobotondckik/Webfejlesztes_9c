@@ -38,3 +38,31 @@ html {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#labsport {
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin: 40px 0px;
+}
+
+#kozepso {
+    line-height: 5em;
+    text-align: justify;
+}
+
+
+#FIFA {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    /* text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px; ; */
+    text-decoration: dashed blue line-through 2px;
+}
