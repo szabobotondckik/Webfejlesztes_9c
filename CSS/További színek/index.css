@@ -8,3 +8,22 @@ div{
 #doboz1{
     background-color: rgb(200, 50, 0);
 }
+
+#doboz2 {
+      background-color: #16F41A;  
+      /* background-color: rgb(22, 224, 26);  */
+}
+
+#doboz3 {
+    background-color: rgba(4, 30, 200, 80%);
+}
+
+#doboz4 {
+    background-color: hsl(256, 91%, 58%);
+}
+
+#doboz5 {
+    background-color: red;
+    opacity: 70%;
+    color: blue;
+}
