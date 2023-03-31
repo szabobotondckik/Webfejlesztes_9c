@@ -12,28 +12,37 @@ div {
 
 .balra {
     width: 150px;
-    height: 150px;
+    height: 550px;
     background-color: lightblue;
+    float: left;
 }
 
 .jobbra {
     width: 75px;
-    height: 300px;
+    height: 500px;
     background-color: brown;
     color: white;
+    float: right;
 }
 
 h2 {
     background-color: yellow;
+    clear: both;
 }
 
 #also {
     background-color: lightcoral;
     font-size: 200%;
+    overflow: auto;
 }
 
 #also_alatti {
     background-color: lightgreen;
     padding: 10px;
     margin: 5px;
+    height: 200px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    overflow: auto;
+    white-space: normal;
 }
